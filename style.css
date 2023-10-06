@@ -7,6 +7,7 @@
 .app {
     background-color: rgb(14, 148, 104);
     height: 100%;
+    color: currentColor;
 }
 
 .app__title {
