@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.app {
+    background-color: rgb(14, 148, 104);
+    height: 100%;
+}
+
+.app__title {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
