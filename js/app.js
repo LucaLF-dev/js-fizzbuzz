@@ -2,18 +2,19 @@
 // - creiamo un ciclo che stampi i numeri da 1 a 100
 for (let i = 0; i < 100; i++) {
     let n = i + 1;
-    // console.log(n);
-
-// - creo una varibile resto per i multipli di tre:
-    const resto = n % 3
-    console.log(n, resto)
-//   - SE sono multipli di 3 e quindi il resto è 0 stampo FIZZ
-if (resto === 0){
-    console.log('fizz')
+    // console.log(n)
     
-}
-// - creo una variabile resto per i multipli di 5:
-//   - SE sono multipli di 5 e quindi il resto è 0 stampo BUZZ
+// n % 3 === 0 && n % 5 === 0
+    if (n % 15 === 0) {
+        console.log('fizzbuzz');
+    } else if ( n % 3 === 0) {
+        console.log('fizz');
+    } else if (n % 5 === 0) {
+        console.log('buzz');
+    } else {
+        console.log(n);
+    }  
 
     
+
 }
